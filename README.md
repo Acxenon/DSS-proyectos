@@ -58,7 +58,6 @@ encuesta-php/
 ### Crear la base de datos
 
 ```sql
-DROP DATABASE IF EXISTS encuesta_db;
 CREATE DATABASE encuesta_db;
 USE encuesta_db;
 
