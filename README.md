@@ -1,6 +1,6 @@
-# 🗳️ Sistema de Encuesta de Satisfacción en PHP
+# Sistema de Encuesta de Satisfacción en PHP
 
-## 📌 Descripción
+## Descripción
 
 Este proyecto consiste en el desarrollo de un sistema web de **encuesta de satisfacción**, en el cual los usuarios pueden registrarse, iniciar sesión y emitir un voto sobre su experiencia.
 
@@ -8,7 +8,7 @@ El sistema garantiza la seguridad de los datos mediante el uso de buenas prácti
 
 ---
 
-## 🎯 Funcionalidades principales
+## Funcionalidades principales
 
 * ✅ Registro de usuarios
 * ✅ Inicio de sesión seguro
@@ -23,7 +23,7 @@ El sistema garantiza la seguridad de los datos mediante el uso de buenas prácti
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 * PHP
 * MySQL
@@ -32,7 +32,7 @@ El sistema garantiza la seguridad de los datos mediante el uso de buenas prácti
 
 ---
 
-## 🧱 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 encuesta-php/
@@ -53,9 +53,9 @@ encuesta-php/
 
 ---
 
-## 🗄️ Base de datos
+## Base de datos
 
-### 📌 Crear la base de datos
+### Crear la base de datos
 
 ```sql
 DROP DATABASE IF EXISTS encuesta_db;
@@ -82,18 +82,18 @@ CREATE TABLE votos (
 
 ---
 
-## 🔐 Seguridad implementada
+## Seguridad implementada
 
-* 🔒 Contraseñas cifradas con `password_hash()`
-* 🔒 Verificación segura con `password_verify()`
-* 🔒 Uso de PDO con sentencias preparadas (`prepare()` y `execute()`)
-* 🔒 Protección de páginas mediante sesiones
-* 🔒 Restricción de acceso a usuarios no autenticados
-* 🔒 Prevención de múltiples votos por usuario
+*  Contraseñas cifradas con `password_hash()`
+*  Verificación segura con `password_verify()`
+*  Uso de PDO con sentencias preparadas (`prepare()` y `execute()`)
+*  Protección de páginas mediante sesiones
+*  Restricción de acceso a usuarios no autenticados
+*  Prevención de múltiples votos por usuario
 
 ---
 
-## 🚀 Instalación y uso
+## Instalación y uso
 
 1. Clonar el repositorio:
 
@@ -119,7 +119,7 @@ http://localhost/encuesta-php
 
 ---
 
-## 📊 Características de la encuesta
+## Características de la encuesta
 
 * Cada usuario puede votar una sola vez
 * Se guarda la fecha del voto
@@ -131,13 +131,13 @@ http://localhost/encuesta-php
 
 ---
 
-## 👤 Autor
+## Autor
 
 * Nombre: Emmanuel Zenon Lovo Chavarria
 
 ---
 
-## 📌 Notas finales
+## Notas finales
 
 Este proyecto fue desarrollado con fines académicos, aplicando conceptos de:
 
