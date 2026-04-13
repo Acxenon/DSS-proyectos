@@ -7,6 +7,11 @@ Este proyecto consiste en el desarrollo de un sistema web de **encuesta de satis
 El sistema garantiza la seguridad de los datos mediante el uso de buenas prácticas como el cifrado de contraseñas y el uso de consultas preparadas con PDO.
 
 ---
+## Video demostrativo
+
+Enlace del video: https://drive.google.com/file/d/1jCJ3xijTnyT2Z9RnjUoIFN39_C6edTkv/view?usp=sharing
+
+---
 
 ## Funcionalidades principales
 
@@ -134,12 +139,4 @@ http://localhost/encuesta-php
 
 ---
 
-## Notas finales
 
-Este proyecto fue desarrollado con fines académicos, aplicando conceptos de:
-
-* Desarrollo web con PHP
-* Manejo de bases de datos
-* Seguridad básica en aplicaciones web
-
----
