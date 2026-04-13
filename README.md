@@ -61,7 +61,6 @@ encuesta-php/
 CREATE DATABASE encuesta_db;
 USE encuesta_db;
 
--- Tabla de usuarios
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre_completo VARCHAR(100) NOT NULL,
@@ -69,7 +68,6 @@ CREATE TABLE usuarios (
     password VARCHAR(255) NOT NULL
 );
 
--- Tabla de votos
 CREATE TABLE votos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario_id INT UNIQUE,
